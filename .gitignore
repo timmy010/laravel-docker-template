@@ -1,0 +1,49 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/.env
+/.env.*.local
+/.phpunit.result.cache
+.phpunit.result.cache
+/.php_cs.cache
+.php-cs-fixer.cache
+
+# Ignore framework generated files but keep .gitignore placeholders
+/storage/framework/*
+!/storage/framework/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Composer
+/composer.phar
+
+# IDEs & editors
+/.idea/
+/.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+docker/**/.env
+docker/**/tmp
+
+# Node
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Logs and misc
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.env.backup
+.env.testing
+analysis.md
